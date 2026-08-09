@@ -656,7 +656,8 @@ _Please share a customized B2B quotation for this requirement._`;
               <div class="contact-block-title">Email</div>
               <div class="contact-block-text">
                 <a href="mailto:navigatio.asia@hotmail.com">navigatio.asia@hotmail.com</a><br />
-                <a href="mailto:navigatio.connect@hotmail.com">navigatio.connect@hotmail.com</a>
+                <a href="mailto:navigatio.connect@hotmail.com">navigatio.connect@hotmail.com</a><br />
+                <a href="mailto:contact@navigatioasia.com">contact@navigatioasia.com</a><br />
               </div>
             </div>
           </div>

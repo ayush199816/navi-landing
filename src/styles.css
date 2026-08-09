@@ -1160,4 +1160,14 @@ body {
   .content-section {
     padding: 60px 6%;
   }
+
+  .window-frame-container {
+    width: 85vw;
+    height: 85vh;
+  }
+
+  .window-svg {
+    width: 85%;
+    height: 85%;
+  }
 }
