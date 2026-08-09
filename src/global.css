@@ -1,0 +1,31 @@
+/* Global reset to avoid unexpected scrollbars */
+html, body, #root {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-y: auto;
+}
+
+/* Improve touch/trackpad scrolling on mobile and touch devices */
+body, html {
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Ensure no nested element creates its own scrollbar */
+* {
+  box-sizing: border-box;
+}
+
+/* Prevent sticky viewport from creating overflow */
+.sticky-viewport {
+  overflow: hidden !important;
+}
+
+/* also ensure our sticky viewport uses smooth touch scrolling where supported */
+.sticky-viewport {
+  -webkit-overflow-scrolling: touch;
+}
